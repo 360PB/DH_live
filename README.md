@@ -1,5 +1,5 @@
 # Mobile and Web Real-time Live Streaming Digital Human! 
-# 实时直播数字人  [bilibili video](https://www.bilibili.com/video/BV1Ppv1eEEgj/?vd_source=53601feee498369e726af7dbc2dae349)
+
 # 数字人方案对比
 
 以下表格展示了不同数字人方案的性能、使用方式、脸部分辨率及适用设备等信息，方便用户根据需求选择合适的方案。
@@ -12,8 +12,7 @@
 | duix.ai                      | 1,200             | 单人训练   | 168        | 中高端手机APP                      |
 
 ### News
-## Fastest model released! More demos joins me through the contact information at the bottom!
- All checkpoint files are moved to [baiduNetDisk](https://pan.baidu.com/s/1jH3WrIAfwI3U5awtnt9KPQ?pwd=ynd7)
+
 ## Training
 Details on the render model training can be found [here](https://github.com/kleinlee/DH_live/tree/master/train).
 Audio Model training Details can be found [here](https://github.com/kleinlee/DH_live/tree/master/train_audio).
@@ -40,7 +39,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 cd checkpoint
 ```
-unzip checkpoint files from [baiduNetDisk](https://pan.baidu.com/s/1jH3WrIAfwI3U5awtnt9KPQ?pwd=ynd7)
+
 ### Prepare Your Video
 Next, prepare your video using the data_preparation script. Replace YOUR_VIDEO_PATH with the path to your video:
 ```bash
@@ -65,7 +64,4 @@ We would like to thank the contributors of [Wav2Lip](https://github.com/Rudrabha
 DH_live is licensed under the MIT License.
 
 DH_live_mini is licensed under the Apache 2.0.
-## 联系
-| 进入QQ群聊，分享看法和最新咨询。 | 加我好友，请备注“进群”，拉你进去微信交流群。 |
-|-------------------|----------------------|
-| ![QQ群聊](https://github.com/user-attachments/assets/29bfef3f-438a-4b9f-ba09-e1926d1669cb) | ![微信交流群](https://github.com/user-attachments/assets/b1f24ebb-153b-44b1-b522-14f765154110) |
+
