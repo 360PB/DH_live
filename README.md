@@ -52,8 +52,10 @@ python demo.py video_data/test video_data/audio0.wav 1.mp4
 ```
 ### 使用麦克风实时运行
 对于使用麦克风的实时操作，只需运行以下命令：
+命令传参为DH_live\video_data下模型文件夹名，
+如需使用其他模型，可以修改此脚本的参数
 ```bash
-python demo_avatar.py
+python demo_avatar.py test
 ```
 
 ## 致谢
